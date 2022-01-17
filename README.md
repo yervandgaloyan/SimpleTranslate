@@ -1,0 +1,2 @@
+# SimpleTranslate
+Simple translation script.
