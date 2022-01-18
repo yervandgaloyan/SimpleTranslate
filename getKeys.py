@@ -19,6 +19,7 @@ filetext = textfile.read()
 textfile.close()
 matches = re.findall('\{\{"[^"]*"\}\}', filetext)
 
+matches = set(matches)
 translations = open(args.out, "w")
 translations.write("# Only replace \"value\"s in this file\n")
 for item in matches:
