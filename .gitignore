@@ -1,3 +1,6 @@
 __pycache__
+translationConfigs.ini
+translations/
+builds/
 translations.txt
 index*
